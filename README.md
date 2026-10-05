@@ -1,6 +1,15 @@
-# packaging
+# packaging-for-svn
 
-FreshPorts packaging files. See `README.TXT`.
+FreshPorts packaging files as they stand in Subversion, including the `cut-*`
+scripts, which tag a release in SVN, export it, and copy the tarball to
+pkg01. See `README.TXT`.
+
+This is not [FreshPorts/packaging](https://github.com/FreshPorts/packaging).
+That repository was converted from SVN up to r6036 and has since been
+developed on GitHub, where the `cut-*` scripts were retired and the manifest
+file origins moved. This repository follows SVN instead, through r6272
+(2026-10-03, a change to the `cut-*` scripts). The two share history up to
+r6036, though with different commit hashes.
 
 ## Conversion from Subversion
 
